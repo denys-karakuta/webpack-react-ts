@@ -6,7 +6,6 @@ const Counter = () => {
     const increment = () => {
         setCount((count) => count + 1);
     };
-
     return (
         <div>
             <button onClick={increment}>+</button>
@@ -14,5 +13,4 @@ const Counter = () => {
         </div>
     );
 };
-
 export default Counter;
